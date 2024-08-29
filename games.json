@@ -22,5 +22,11 @@
       "link": "applications/p_emerald/index.html",
       "image": "images/p_emerald.png",
       "description": "Pokemon Emerald"
+  },
+  {
+    "title": "Sonic The Hedgehog {2}",
+    "link": "applications/S_2/index.html",
+    "image": "images/s_2.png",
+    "description": "Sonic The Hedgehog {2}"
   }
 ]
