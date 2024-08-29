@@ -1,127 +1,31 @@
 <!DOCTYPE html>
-<html>
-    <head>
-      <title>Turtle Internet</title>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <!--FONT AWESOME-->
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      <link rel="stylesheet" href="style.css">
-    <style>
-    div.gallery {
-      border: 1px solid #ccc;
-    }
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Turtle Internet</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1 class="title">Turtle Internet</h1>
+  </header>
 
-    div.gallery:hover {
-      border: 1px solid #777;
-    }
+  <main class="gallery-container" id="gallery-container">
+    <!-- Dynamic content will be injected here -->
+  </main>
 
-    div.gallery img {
-      max-width: 100%;
-      height: 50vh;
-    }
-
-    div.desc {
-      padding: 15px;
-      text-align: center;
-      color: white;
-    }
-
-    * {
-      box-sizing: border-box;
-    }
-
-    .responsive {
-      padding: 0 6px;
-      float: left;
-      width: 24.99999%;
-    }
-
-    @media only screen and (max-width: 700px) {
-      .responsive {
-        width: 49.99999%;
-        margin: 6px 0;
-      }
-    }
-
-    @media only screen and (max-width: 500px) {
-      .responsive {
-        width: 100%;
-      }
-    }
-
-    .clearfix:after {
-      content: "";
-      display: table;
-      clear: both;
-    }
-    </style>
-  </head>
-<body style="background-color: #24262b;">
-
-<h2 class="title" style="text-align: center; color:white;">Turtle Internet</h2>
-
-<div class="responsive" style="margin-top: 30px;">
-  <div class="gallery">
-    <a target="_parent" href="M_64/mario.html">
-      <img src="images/m_64.png" alt="Mario 64" width="600" height="400">
-    </a>
-    <div class="desc">Mario 64 | Nintendo N64</div>
-  </div>
-</div>
-
-<div class="responsive" style="margin-top: 30px;">
-  <div class="gallery">
-    <a target="_parent" href="m_kart/m_kart.html">
-      <img src="images/m_kart.png" alt="Mario Kart 64" width="600" height="400" style="object-fit: fill;">
-    </a>
-    <div class="desc">Mario Kart 64</div>
-  </div>
-</div>
-
-<div class="responsive" style="margin-top: 30px;">
-  <div class="gallery">
-    <a target="_parent" href="S_1/index.html">
-      <img src="images/s_1.png" alt="Sonic The Headgehog" width="600" height="400" style="image-resolution: dpi;">
-    </a>
-    <div class="desc">Sonic The Headgehog {1}</div>
-  </div>
-</div>
-
-<div class="responsive" style="margin-top: 30px;">
-  <div class="gallery">
-    <a target="_parent" href="p_emerald/index.html">
-      <img src="images/p_emerald.png" alt="Sonic The Headgehog" width="600" height="400" style="image-resolution: dpi;">
-    </a>
-    <div class="desc">Pokemon Emerald</div>
-  </div>
-</div>
-
-<!--<div class="responsive" style="margin-top: 30px;">
-  <div class="gallery">
-    <a target="_parent" href="img_lights.jpg">
-      <img src="img_lights.jpg" alt="Northern Lights" width="600" height="400">
-    </a>
-    <div class="desc">Add a description of the image here</div>
-  </div>
-</div>
-
-Copy and paste for new objects
--->
-<div class="clearfix"></div>
-<!-- FOOTER -->
   <footer>
-  <div class="footer">
-    <div class="row" style="background-color: #060707;">
+    <div class="footer-content">
       <ul>
-          <li><a href="https://github.com/TheSirus69">GitHub</a></li>
-          <li><a href="https://buymeacoffee.com/thesirus69">Support The Project</a></li>
-          <li><a href="https://forms.gle/j8jdAKeeEyZZPjQd6">Suggest a Game</a></li>
-        </ul>
-      </div>
+        <li><a href="https://github.com/TheSirus69">GitHub</a></li>
+        <li><a href="https://buymeacoffee.com/thesirus69">Support The Project</a></li>
+        <li><a href="https://forms.gle/j8jdAKeeEyZZPjQd6">Suggest a Game</a></li>
+      </ul>
     </div>
-    </footer>
-  </body>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
 </html>
-
-

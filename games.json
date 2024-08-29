@@ -1,0 +1,27 @@
+[
+    {
+      "title": "Mario 64 | Nintendo N64",
+      "link": "applications/M_64/mario.html",
+      "image": "images/m_64.png",
+      "description": "Mario 64 | Nintendo N64"
+    },
+    {
+      "title": "Mario Kart 64",
+      "link": "applications/m_kart/m_kart.html",
+      "image": "images/m_kart.png",
+      "description": "Mario Kart 64"
+    },
+    {
+      "title": "Sonic The Hedgehog {1}",
+      "link": "applications/S_1/index.html",
+      "image": "images/s_1.png",
+      "description": "Sonic The Hedgehog {1}"
+    },
+    {
+      "title": "Pokemon Emerald",
+      "link": "applications/p_emerald/index.html",
+      "image": "images/p_emerald.png",
+      "description": "Pokemon Emerald"
+    }
+  ]
+  
