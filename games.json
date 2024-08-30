@@ -42,10 +42,200 @@
     "console": "Sega Genesis"
   },
   {
-    "title": "Papas Freezeria",
-    "link": "applications/flash/p_f/freezeria.html",
-    "image": "images/p_f.png",
-    "description": "Papas Freezeria",
+    "title": "2048",
+    "link": "applications/flash/2048/2048.html",
+    "image": "images/2048.png",
+    "description": "2048",
     "console": "Flash"
+  },
+  {
+    "title": "Creative Chamber",
+    "link": "applications/flash/c_k_c/c_k_c.html",
+    "image": "images/cc.png",
+    "description": "Creative Chamber",
+    "console": "Flash"
+  },
+  {
+    "title": "Cat Ninja",
+    "link": "applications/flash/c_n/c_n.html",
+    "image": "images/cn.png",
+    "description": "Cat Ninja",
+    "console": "Flash"
+  },
+  {
+    "title": "Duck Life 1",
+    "link": "applications/flash/d_l/d_l_1/dl_1.html",
+    "image": "images/dl1.png",
+    "description": "Duck Life 1",
+    "console": "Flash"
+  },
+  {
+    "title": "Duck Life 2",
+    "link": "applications/flash/d_l/d_l_2/dl_2.html",
+    "image": "images/dl2.png",
+    "description": "Duck Life 2",
+    "console": "Flash"
+  },
+  {
+    "title": "Duck Life 3",
+    "link": "applications/flash/d_l/d_l_3/dl_3.html",
+    "image": "images/dl3.png",
+    "description": "Duck Life 3",
+    "console": "Flash"
+  },
+  {
+    "title": "Infiltrating the Airship",
+    "link": "applications/flash/hs/hs_a/index.html",
+    "image": "images/hs_airship.png",
+    "description": "Infiltrating the Airship",
+    "console": "Flash"
+  },
+  {
+      "title": "Fleeing the Complex",
+      "link": "applications/flash/hs/hs_c/index.html",
+      "image": "images/hs_complex.png",
+      "description": "Fleeing the Complex",
+      "console": "Flash"
+  },
+  {
+      "title": "Stealing the Diamond",
+      "link": "applications/flash/hs/hs_d/index.html",
+      "image": "images/hs_diamond.png",
+      "description": "Stealing the Diamond",
+      "console": "Flash"
+  },
+  {
+      "title": "Breaking the Bank",
+      "link": "applications/flash/hs/hs_b/index.html",
+      "image": "images/hs_bank.png",
+      "description": "Breaking the Bank",
+      "console": "Flash"
+  },
+  {
+      "title": "Escaping the Prison",
+      "link": "applications/flash/hs/hs_p/index.html",
+      "image": "images/hs_prison.png",
+      "description": "Escaping the Prison",
+      "console": "Flash"
+  },
+  {
+      "title": "Impossible Quiz",
+      "link": "applications/flash/i_q/i_q.html",
+      "image": "images/i_q.png",
+      "description": "Impossible Quiz",
+      "console": "Flash"
+  },
+  {
+      "title": "Modo X3M 1",
+      "link": "applications/flash/m_x3m/m_x3m_1/m_1.html",
+      "image": "images/m_x3m_1.png",
+      "description": "Modo X3M 1",
+      "console": "Flash"
+  },
+  {
+      "title": "Modo X3M 2",
+      "link": "applications/flash/m_x3m/m_x3m_2/m_2.html",
+      "image": "images/m_x3m_2.png",
+      "description": "Modo X3M 2",
+      "console": "Flash"
+  },
+  {
+      "title": "Papa's Pizzeria",
+      "link": "applications/flash/p/p_pizza/index.html",
+      "image": "images/p_pizza.png",
+      "description": "Papa's Pizzeria",
+      "console": "Flash"
+  },
+  {
+      "title": "Papa's Burgeria",
+      "link": "applications/flash/p/p_b/index.html",
+      "image": "images/p_b.png",
+      "description": "Papa's Burgeria",
+      "console": "Flash"
+  },
+  {
+      "title": "Papa's Freezeria",
+      "link": "applications/flash/p/p_f/index.html",
+      "image": "images/p_f.png",
+      "description": "Papa's Freezeria",
+      "console": "Flash"
+  },
+  {
+      "title": "Papa's Donuteria",
+      "link": "applications/flash/p/p_d/index.html",
+      "image": "images/p_d.png",
+      "description": "Papa's Donuteria",
+      "console": "Flash"
+  },
+  {
+      "title": "Papa's Sushiria",
+      "link": "applications/flash/p/p_s/index.html",
+      "image": "images/p_s.png",
+      "description": "Papa's Sushiria",
+      "console": "Flash"
+  },
+  {
+      "title": "Papa's Taco Mia",
+      "link": "applications/flash/p/p_t/index.html",
+      "image": "images/p_t.png",
+      "description": "Papa's Taco Mia",
+      "console": "Flash"
+  },
+  {
+      "title": "Papa's Cupcakeria",
+      "link": "applications/flash/p/p_c/index.html",
+      "image": "images/p_c.png",
+      "description": "Papa's Cupcakeria",
+      "console": "Flash"
+  },
+  {
+      "title": "Papa's Wingeria",
+      "link": "applications/flash/p/p_w/index.html",
+      "image": "images/p_w.png",
+      "description": "Papa's Wingeria",
+      "console": "Flash"
+  },
+  {
+      "title": "Papa's Pastaria",
+      "link": "applications/flash/p/p_pasta/index.html",
+      "image": "images/p_pasta.png",
+      "description": "Papa's Pastaria",
+      "console": "Flash"
+  },
+  {
+      "title": "Run 3",
+      "link": "applications/flash/r_3/index.html",
+      "image": "images/r_3.png",
+      "description": "Run 3",
+      "console": "Flash"
+  },
+  {
+      "title": "Sugar, Sugar",
+      "link": "applications/flash/ss/ss_1/index.html",
+      "image": "images/ss_1.png",
+      "description": "Sugar, Sugar",
+      "console": "Flash"
+  },
+  {
+      "title": "Sugar, Sugar 2",
+      "link": "applications/flash/ss/ss_2/index.html",
+      "image": "images/ss_2.png",
+      "description": "Sugar, Sugar 2",
+      "console": "Flash"
+  },
+  {
+      "title": "Tetris",
+      "link": "applications/flash/t/index.html",
+      "image": "images/t.png",
+      "description": "Tetris",
+      "console": "Flash"
+  },
+  {
+      "title": "Worlds Hardest Game",
+      "link": "applications/flash/w_h_g/index.html",
+      "image": "images/w_h_g.png",
+      "description": "Worlds Hardest Game",
+      "console": "Flash"
   }
+
 ]
