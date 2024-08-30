@@ -1,10 +1,24 @@
 [
   {
-    "title": "Mario 64 | Nintendo N64",
+    "title": "Mario 64",
     "link": "applications/M_64/mario.html",
     "image": "images/m_64.png",
-    "description": "Mario 64 | Nintendo N64",
+    "description": "Mario 64",
     "console": "Nintendo N64"
+  },
+  {
+    "title": "Legend of Zelda - Ocarina of Time",
+    "link": "applications/z_ocarina/index.html",
+    "image": "images/z_ocarina.png",
+    "description": "Legend of Zelda - Ocarina of Time",
+    "console": "Nintendo N64"
+  },
+  {
+    "title": "Mario Bros 3.",
+    "link": "applications/m_3/index.html",
+    "image": "images/m_3.png",
+    "description": "Super Mario Bros. 3",
+    "console": "Game Boy Advance"
   },
   {
     "title": "Mario Kart 64",
