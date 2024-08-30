@@ -38,7 +38,7 @@ a:hover {
   justify-content: center;
   padding: 20px;
   flex: 1;
-  perspective: 1000px;  /* Adds depth to the 3D effect */
+  perspective: 1000px;
 }
 
 .gallery-item {
@@ -119,5 +119,116 @@ footer {
 @media only screen and (max-width: 500px) {
   .gallery-item {
       width: calc(100% - 20px);
+  }
+}
+
+/* Dropdown and Search Bar Styling */
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.controls input[type="text"], .controls select {
+  padding: 10px;
+  margin: 0 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #333;
+  color: white;
+  font-size: 1rem;
+  max-width: 300px;
+}
+
+.controls input[type="text"] {
+  flex: 1;
+}
+
+.controls select {
+  max-width: 200px;
+}
+
+.controls input[type="text"]:hover, .controls select:hover {
+  background-color: #444;
+}
+
+/* Gallery Container Layout */
+.gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  flex: 1;
+}
+
+/* Card Styling */
+.gallery-item {
+  border: 1px solid #ccc;
+  margin: 10px;
+  width: 420px;
+  height: 300px;
+  box-sizing: border-box;
+  background-color: #444;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Image Styling */
+.gallery-item img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  margin: 0;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Description/Title Styling */
+.desc {
+  padding: 10px;
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  font-size: 1.2rem;
+  margin-top: auto;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Hover Effects */
+.gallery-item:hover {
+  transform: scale(1.05);
+}
+
+.gallery-item:hover img {
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+.gallery-item:hover img {
+  transform: scale(1.05) rotate3d(1, 1, 0, 15deg);
+}
+
+/* Responsive Adjustments */
+@media only screen and (max-width: 700px) {
+  .gallery-item {
+      width: 90%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .gallery-item {
+      width: 100%;
+  }
+}
+
+
+@media only screen and (max-width: 500px) {
+  .gallery-item {
+      width: 100%;
   }
 }
