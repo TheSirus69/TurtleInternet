@@ -79,21 +79,20 @@ footer {
   justify-content: center;
   align-items: center;
   margin: 20px 0;
+  flex-wrap: wrap; /* Allows wrapping on smaller screens */
 }
 
 .controls input[type="text"], .controls select {
   padding: 10px;
-  margin: 0 10px;
+  margin: 10px 5px; /* Adjust margin for better spacing */
   border-radius: 5px;
   border: 1px solid #ccc;
   background-color: #333;
   color: white;
   font-size: 1rem;
+  flex: 1; /* Allows the elements to scale with the container */
   max-width: 300px;
-}
-
-.controls input[type="text"] {
-  flex: 1;
+  box-sizing: border-box;
 }
 
 .controls select {
@@ -181,5 +180,26 @@ footer {
 @media only screen and (max-width: 500px) {
   .gallery-item {
       width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .controls {
+    flex-direction: column; /* Stack items vertically */
+    align-items: stretch; /* Full width of the container */
+  }
+
+  .controls input[type="text"], .controls select {
+    width: 100%; /* Full width for each control */
+    margin: 5px 0; /* Adjust margin for stacked layout */
+    font-size: 1rem;
+  }
+}
+
+/* Further adjustments for very small screens */
+@media only screen and (max-width: 480px) {
+  .controls input[type="text"], .controls select {
+    padding: 8px; /* Slightly smaller padding */
+    font-size: 0.9rem; /* Smaller font size */
   }
 }
