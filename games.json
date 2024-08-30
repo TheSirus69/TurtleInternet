@@ -40,5 +40,12 @@
     "image": "images/s_3.png",
     "description": "Sonic The Hedgehog {3}",
     "console": "Sega Genesis"
+  },
+  {
+    "title": "Papas Freezeria",
+    "link": "applications/flash/p_f/freezeria.html",
+    "image": "images/p_f.png",
+    "description": "Papas Freezeria",
+    "console": "Flash"
   }
 ]

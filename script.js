@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
     .then(response => response.json())
     .then(games => {
       gamesData = games;
-      sortAndDisplayGames('title-asc');  // Default to A-Z sorting
+      sortAndDisplayGames('title-asc');
     })
     .catch(error => {
       console.error('Error loading the games:', error);
@@ -33,18 +33,29 @@ document.addEventListener('DOMContentLoaded', () => {
   function sortAndDisplayGames(sortValue) {
     let sortedGames = [...gamesData];
 
-    if (sortValue === 'title-asc') {
-      sortedGames.sort((a, b) => a.title.localeCompare(b.title));
-    } else if (sortValue === 'n64') {
-      sortedGames = sortedGames.filter(game => game.console === 'Nintendo N64');
-    } else if (sortValue === 'genesis') {
-      sortedGames = sortedGames.filter(game => game.console === 'Sega Genesis');
-    } else if (sortValue === 'gba') {
-      sortedGames = sortedGames.filter(game => game.console === 'Game Boy Advance');
+    switch (sortValue) {
+        case 'title-asc':
+            sortedGames.sort((a, b) => a.title.localeCompare(b.title));
+            break;
+        case 'n64':
+            sortedGames = sortedGames.filter(game => game.console === 'Nintendo N64');
+            break;
+        case 'genesis':
+            sortedGames = sortedGames.filter(game => game.console === 'Sega Genesis');
+            break;
+        case 'gba':
+            sortedGames = sortedGames.filter(game => game.console === 'Game Boy Advance');
+            break;
+        case 'flash':
+            sortedGames = sortedGames.filter(game => game.console === 'Flash');
+            break;
+        default:
+            break;
     }
-
+    
     displayGames(sortedGames);
   }
+
 
   // Function to display games
   function displayGames(games) {
@@ -61,8 +72,7 @@ document.addEventListener('DOMContentLoaded', () => {
       `;
       container.appendChild(article);
     });
-
-    // Reapply hover effect after sorting
+    
     const galleryItems = document.querySelectorAll('.gallery-item');
 
     galleryItems.forEach(item => {
