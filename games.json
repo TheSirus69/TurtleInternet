@@ -33,5 +33,12 @@
     "image": "images/s_2.png",
     "description": "Sonic The Hedgehog {2}",
     "console": "Sega Genesis"
+  },
+  {
+    "title": "Sonic The Hedgehog {3}",
+    "link": "applications/S_3/index.html",
+    "image": "images/s_3.png",
+    "description": "Sonic The Hedgehog {3}",
+    "console": "Sega Genesis"
   }
 ]
