@@ -99,35 +99,35 @@
   },
   {
     "title": "Infiltrating the Airship",
-    "link": "applications/flash/hs/hs_a/index.html",
+    "link": "applications/flash/hs/hs_airship/index.html",
     "image": "images/hs_airship.png",
     "description": "Infiltrating the Airship",
     "console": "Flash"
   },
   {
       "title": "Fleeing the Complex",
-      "link": "applications/flash/hs/hs_c/index.html",
+      "link": "applications/flash/hs/hs_complex/index.html",
       "image": "images/hs_complex.png",
       "description": "Fleeing the Complex",
       "console": "Flash"
   },
   {
       "title": "Stealing the Diamond",
-      "link": "applications/flash/hs/hs_d/index.html",
+      "link": "applications/flash/hs/hs_diamond/index.html",
       "image": "images/hs_diamond.png",
       "description": "Stealing the Diamond",
       "console": "Flash"
   },
   {
       "title": "Breaking the Bank",
-      "link": "applications/flash/hs/hs_b/index.html",
+      "link": "applications/flash/hs/hs_bank/index.html",
       "image": "images/hs_bank.png",
       "description": "Breaking the Bank",
       "console": "Flash"
   },
   {
       "title": "Escaping the Prison",
-      "link": "applications/flash/hs/hs_p/index.html",
+      "link": "applications/flash/hs/hs_prison/index.html",
       "image": "images/hs_prison.png",
       "description": "Escaping the Prison",
       "console": "Flash"
