@@ -3,7 +3,7 @@ name: Deploy
 on:
   push:
     branches:
-      - main  # Change to your deployment branch if different
+      - main
 
 jobs:
   deploy:
@@ -13,15 +13,8 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v3
       with:
-        lfs: true  # This ensures LFS files are pulled when checking out
+        lfs: true
 
-    - name: Set up Git LFS
+    - name: Trigger deployment on EasyPanel
       run: |
-        git lfs install
-        git lfs pull
-
-    - name: Deploy application
-      run: |
-        # Here you can run your deployment script or any necessary commands
-        # For example, you might SSH into your server and pull the latest changes
-        ssh user@yourserver "cd /path/to/your/project && git pull && git lfs pull && ./deploy_script.sh"
+        curl -X POST http://82.180.163.169:3000/api/deploy/30a4729af594dbd55c920abcc9044fa7884321d7650c9367
