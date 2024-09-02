@@ -49,6 +49,9 @@ document.addEventListener('DOMContentLoaded', () => {
         case 'flash':
             sortedGames = sortedGames.filter(game => game.console === 'Flash');
             break;
+        case 'saturn':
+            sortedGames = sortedGames.filter(game => game.console === 'Saturn');
+            break;
         default:
             break;
     }

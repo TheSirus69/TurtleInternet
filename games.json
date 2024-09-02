@@ -250,6 +250,13 @@
       "image": "images/w_h_g.png",
       "description": "Worlds Hardest Game",
       "console": "Flash"
+  },
+  {
+    "title": "Sonic Racing",
+    "link": "applications/s_r/index.html",
+    "image": "images/s_r.png",
+    "description": "Sonic Racing",
+    "console": "Saturn"
   }
 
 ]
